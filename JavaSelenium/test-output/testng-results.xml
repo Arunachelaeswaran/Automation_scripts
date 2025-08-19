@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-19T23:06:17 IST" name="Default suite" finished-at="2025-08-19T23:06:22 IST" duration-ms="5863">
+    <groups>
+    </groups>
+    <test started-at="2025-08-19T23:06:17 IST" name="Default test" finished-at="2025-08-19T23:06:22 IST" duration-ms="5863">
+      <class name="testScripts.LoginPageTestcases">
+        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:testScripts.LoginPageTestcases@33d512c1]" started-at="2025-08-19T23:06:17 IST" name="BrowserInvoke" finished-at="2025-08-19T23:06:20 IST" duration-ms="3893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInvoke -->
+        <test-method signature="TC_003()[pri:0, instance:testScripts.LoginPageTestcases@33d512c1]" started-at="2025-08-19T23:06:20 IST" name="TC_003" description="Login User with incorrect email and password" finished-at="2025-08-19T23:06:22 IST" duration-ms="1729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testScripts.LoginPageTestcases@33d512c1]" started-at="2025-08-19T23:06:22 IST" name="BrowserTearDown" finished-at="2025-08-19T23:06:22 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+      </class> <!-- testScripts.LoginPageTestcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
