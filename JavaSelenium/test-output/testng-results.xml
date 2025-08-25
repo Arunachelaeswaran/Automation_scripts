@@ -1,21 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-19T23:06:17 IST" name="Default suite" finished-at="2025-08-19T23:06:22 IST" duration-ms="5863">
+  <suite started-at="2025-08-25T22:49:28 IST" name="Default suite" finished-at="2025-08-25T22:50:12 IST" duration-ms="43763">
     <groups>
     </groups>
-    <test started-at="2025-08-19T23:06:17 IST" name="Default test" finished-at="2025-08-19T23:06:22 IST" duration-ms="5863">
+    <test started-at="2025-08-25T22:49:28 IST" name="Default test" finished-at="2025-08-25T22:50:12 IST" duration-ms="43763">
       <class name="testScripts.LoginPageTestcases">
-        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:testScripts.LoginPageTestcases@33d512c1]" started-at="2025-08-19T23:06:17 IST" name="BrowserInvoke" finished-at="2025-08-19T23:06:20 IST" duration-ms="3893" status="PASS">
+        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:49:28 IST" name="BrowserInvoke" finished-at="2025-08-25T22:49:32 IST" duration-ms="3853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserInvoke -->
-        <test-method signature="TC_003()[pri:0, instance:testScripts.LoginPageTestcases@33d512c1]" started-at="2025-08-19T23:06:20 IST" name="TC_003" description="Login User with incorrect email and password" finished-at="2025-08-19T23:06:22 IST" duration-ms="1729" status="PASS">
+        <test-method signature="TC_001()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:49:32 IST" name="TC_001" description="Create a User Login and Delete the User" finished-at="2025-08-25T22:49:41 IST" duration-ms="9226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:49:41 IST" name="BrowserTearDown" finished-at="2025-08-25T22:49:42 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:49:42 IST" name="BrowserInvoke" finished-at="2025-08-25T22:49:44 IST" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInvoke -->
+        <test-method signature="TC_002()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:49:44 IST" name="TC_002" description="Login User with correct email and password" finished-at="2025-08-25T22:49:48 IST" duration-ms="3782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:49:48 IST" name="BrowserTearDown" finished-at="2025-08-25T22:49:48 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:49:48 IST" name="BrowserInvoke" finished-at="2025-08-25T22:49:51 IST" duration-ms="3077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInvoke -->
+        <test-method signature="TC_003()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:49:51 IST" name="TC_003" description="Login User with incorrect email and password" finished-at="2025-08-25T22:49:55 IST" duration-ms="3656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_003 -->
-        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testScripts.LoginPageTestcases@33d512c1]" started-at="2025-08-19T23:06:22 IST" name="BrowserTearDown" finished-at="2025-08-19T23:06:22 IST" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:49:55 IST" name="BrowserTearDown" finished-at="2025-08-25T22:49:55 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:49:55 IST" name="BrowserInvoke" finished-at="2025-08-25T22:49:58 IST" duration-ms="2585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInvoke -->
+        <test-method signature="TC_004()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:49:58 IST" name="TC_004" description="Logout User" finished-at="2025-08-25T22:50:01 IST" duration-ms="3247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:50:01 IST" name="BrowserTearDown" finished-at="2025-08-25T22:50:01 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserTearDown -->
+        <test-method is-config="true" signature="BrowserInvoke()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:50:01 IST" name="BrowserInvoke" finished-at="2025-08-25T22:50:04 IST" duration-ms="2827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInvoke -->
+        <test-method signature="TC_005()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:50:04 IST" name="TC_005" description="Delete the User Account" finished-at="2025-08-25T22:50:12 IST" duration-ms="7625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method is-config="true" signature="BrowserTearDown()[pri:0, instance:testScripts.LoginPageTestcases@4d5d943d]" started-at="2025-08-25T22:50:12 IST" name="BrowserTearDown" finished-at="2025-08-25T22:50:12 IST" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserTearDown -->

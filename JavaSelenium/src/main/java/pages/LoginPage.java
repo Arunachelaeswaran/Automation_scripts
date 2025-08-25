@@ -37,6 +37,9 @@ public class LoginPage extends PageConfigurationSetup {
 
 	@FindBy(xpath = "//p[contains(text(),'Your email or password is incorrect!')]")
 	private WebElement invalidCredentialsValidationMessage;
+	
+	@FindBy(xpath = "//h2[contains(text(),'Login to your account')]")
+	private WebElement Login_to_your_account_Label;
 
 	public String getInvalidCredentialsMessage() {
 
@@ -71,6 +74,11 @@ public class LoginPage extends PageConfigurationSetup {
 
 		return new HomePage(driver);
 
+	}
+
+	public String getLoginToYourAccountLabel() {
+		
+		return Login_to_your_account_Label.getText();
 	}
 
 }

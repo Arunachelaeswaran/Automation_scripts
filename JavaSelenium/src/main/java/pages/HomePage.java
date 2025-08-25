@@ -46,15 +46,15 @@ public class HomePage extends PageConfigurationSetup {
 
 	}
 	
-	public WebElement getUsernameLabel(String username) {
-		return driver.findElement(By.xpath("//b[text()='" + username + "']"));
+	public String getUsernameLabel(String username) {
+		return driver.findElement(By.xpath("//b[text()='" + username + "']")).getText();
 	}
 	
 	public void DeleteAccount(String _username) {
 
 		// Verify that 'Logged in as username' is visible
-		wait.until(ExpectedConditions.visibilityOf(getUsernameLabel(_username)));
-		Assert.assertEquals(getUsernameLabel(_username).getText(), _username);
+		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//b[text()='" + _username + "']"))));
+		Assert.assertEquals(getUsernameLabel(_username), _username);
 
 		// Click 'Delete Account' button
 		deleteAccountButton.click();
@@ -66,6 +66,11 @@ public class HomePage extends PageConfigurationSetup {
 		// Click the Continue button
 		continueButton.click();
 
+	}
+
+	public String getHomeLabel() {
+		
+		return wait.until(ExpectedConditions.visibilityOf(HomeLabel)).getText();
 	}
 
 }

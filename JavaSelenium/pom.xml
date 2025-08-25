@@ -38,11 +38,6 @@
 			<version>7.11.0</version>
 			<scope>test</scope>
 		</dependency>
-
-		<dependency>
-			<groupId>www.automationexercise.com</groupId>
-			<artifactId>AutomationExercise</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+		
 	</dependencies>
 </project>
